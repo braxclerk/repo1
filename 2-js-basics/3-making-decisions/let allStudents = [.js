@@ -22,6 +22,7 @@ for (let i = 0; i < allStudents.length; i++){
         let passingGrades = ['A', 'A-', 'B', 'B-', 'C', 'C-'];
         if (passingGrades.includes(studentGrade)) {
             studentsWhoPass.push(studentGrade);
+            studentsWhoPass.push(studentGrade);
         }
     }
 }
